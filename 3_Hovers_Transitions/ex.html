@@ -2,6 +2,12 @@
   .link-amazon 
   {
     color: rgb(0, 113, 133);
+    transition: color 0.15s;
+  }
+
+  .link-amazon:hover
+  {
+    color: rgb(192, 115, 0);
   }
 
   .product 
@@ -25,6 +31,17 @@
     border: none;
     cursor: pointer;
     margin-right: 8px;
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+
+  .cart:hover
+  {
+    background-color: rgb(216, 180, 0);
+  }
+
+  .cart:active
+  {
+    opacity: 0.5;
   }
 
   .buy 
@@ -35,6 +52,17 @@
     height: 30;
     border: none;
     cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+
+  .buy:hover
+  {
+    background-color: rgb(207, 124, 0);
+  }
+
+  .buy:active
+  {
+    opacity: 0.5;
   }
 </style>
 
